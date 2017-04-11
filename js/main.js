@@ -9,16 +9,16 @@ botonTennis.addEventListener("click",mostrarTennis);
 function mostrarBasket(){
  document.getElementById('basketball').style.display ="block";
  document.getElementById('futball').style.display ="none";
- document.getElementById('ten').style.display ="none";
+ document.getElementById('tennis').style.display ="none";
 }
 
 function mostrarFut(){
   document.getElementById('futball').style.display ="block";
   document.getElementById('basketball').style.display ="none";
-  document.getElementById('ten').style.display ="none";
+  document.getElementById('tennis').style.display ="none";
 }
 function mostrarTennis(){
-  document.getElementById('ten').style.display ="block";
+  document.getElementById('tennis').style.display ="block";
   document.getElementById('basketball').style.display ="none";
   document.getElementById('futball').style.display ="none";
 }
